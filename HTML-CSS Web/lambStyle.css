@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ms+Madi&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.headerStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 16vh;
+    width: 100%;
+}
+
+header .headerStyle {
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+
+.headerStyle .logo {
+    height: 15vh;
+    margin-left: 2.2rem;
+    margin-top: 8px;
+}
+
+.header-name{
+    color: whitesmoke;
+    font-family: "Ms Madi", sans-serif;
+    font-size: 60px;
+}
+
+.headerStyle nav {
+    display: flex;
+    gap: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.headerStyle nav a {
+    color: whitesmoke;
+    padding: 2px 5px;
+    border-radius: 13px;
+    transition: all 300ms ease;
+}
+
+.headerStyle nav a:hover {
+    background: whitesmoke;
+    color: black;
+}
+
+.headerStyle .navModels {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+.navModels a {
+    color: whitesmoke;
+    padding: 3px 5px;
+    border-radius: 13px;
+    transition: all 300ms ease;
+}
+
+.navModels a :hover {
+    background: whitesmoke;
+    color: black;
+}
+
+section {
+    display: flex;
+    margin: 10%;
+}
+
+.text-allCars {
+    display: block;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.nameTag {
+    text-align: center;
+    font-family:"Black Ops One", cursive;
+    font-size: 40px;
+}
+
+.carinfo {
+    text-align: center;
+    margin: 30px;
+}
+
+.imgCars {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bigPictures {
+    width: 100%;
+}
+
+.sizeAV {
+    height: 100%;
+    width: 460px;
+}
+
+.sizeHR {
+    height: 100%;
+    width: 460px;
+}
+
+.sizeUR {
+    height: 100%;
+    width: 460px;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    padding: 2%;
+    size: 30px;
+    color: whitesmoke;
+    border-top: 1px solid whitesmoke;
+}
+
+@media (max-width: 970px) {
+    section {
+        flex-direction: column;
+    }
+
+    #HR {
+        flex-direction: column-reverse;
+    }
+
+    .imgCars {
+       text-align: center; 
+    }
+}
+
+@media (max-width: 750px) {
+    .logo {
+        display: none;
+    }
+    .headerStyle nav {
+        gap: 2rem;
+    }
+    .header-name {
+        margin-left: 18px;
+    }
+}

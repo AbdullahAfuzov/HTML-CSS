@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.headingHistory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    color: whitesmoke;
+    font-family: "Ms Madi", sans-serif;
+    font-size: 50px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.container {
+    display: flex;
+}
+
+.headingFacts {
+    font-size: 40px;
+    font-family: "Ms Madi", sans-serif;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 35px;
+}
+
+.factsCSS {
+    padding: 25px;
+    width: 100%;
+    line-height: 1.5rem;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid whitesmoke;
+}
+
+p {
+    margin: 16px;
+    text-align: center;
+}
+
+.sectionHistory {
+    color: whitesmoke;
+    text-align: center;
+    margin: 2rem;
+}
+
+.headingText {
+    font-family: "Ms Madi", sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin: 6%;
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    padding: 2%;
+    size: 30px;
+    color: whitesmoke;
+    border-top: 1px solid whitesmoke;
+}
